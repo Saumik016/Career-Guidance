@@ -1,0 +1,213 @@
+{
+  "engineering": {
+    "title": "Engineering",
+    "careers": [
+      {
+        "id": "software-engineer",
+        "title": "Software Engineer",
+        "image": "https://cdn-icons-png.flaticon.com/512/919/919851.png",
+        "description": "Develops software applications and systems.",
+        "skills": [
+          "Programming",
+          "Problem Solving"
+        ],
+        "education": "B.Tech in CSE/IT",
+        "salary": "₹5–40 LPA",
+        "growth": "Engineer → Lead → Manager"
+      },
+      {
+        "id": "civil-engineer",
+        "title": "Civil Engineer",
+        "image": "https://cdn-icons-png.flaticon.com/512/3564/3564724.png",
+        "description": "Designs infrastructure like roads and bridges.",
+        "skills": [
+          "AutoCAD",
+          "Structural Analysis"
+        ],
+        "education": "B.Tech in Civil",
+        "salary": "₹4–12 LPA",
+        "growth": "Site Eng → Project Mgr"
+      },
+      {
+        "id": "mechanical-engineer",
+        "title": "Mechanical Engineer",
+        "image": "https://cdn-icons-png.flaticon.com/512/1055/1055687.png",
+        "description": "Works with machines and manufacturing systems.",
+        "skills": [
+          "Thermodynamics",
+          "CAD"
+        ],
+        "education": "B.Tech in Mech",
+        "salary": "₹4–10 LPA",
+        "growth": "Junior → Design Lead"
+      },
+      {
+        "id": "electrical-engineer",
+        "title": "Electrical Engineer",
+        "image": "https://cdn-icons-png.flaticon.com/512/2620/2620973.png",
+        "description": "Deals with electrical systems and circuits.",
+        "skills": [
+          "Circuits",
+          "Power Systems"
+        ],
+        "education": "B.Tech in EE",
+        "salary": "₹4–15 LPA",
+        "growth": "Engineer → Lead → Architect"
+      },
+      {
+        "id": "chemical-engineer",
+        "title": "Chemical Engineer",
+        "image": "https://cdn-icons-png.flaticon.com/512/2757/2757123.png",
+        "description": "Applies chemistry in manufacturing processes.",
+        "skills": [
+          "Chemistry",
+          "Process Design"
+        ],
+        "education": "B.Tech in Chemical",
+        "salary": "₹4–12 LPA",
+        "growth": "Plant Eng → Process Head"
+      }
+    ]
+  },
+  "medical": {
+    "title": "Medical",
+    "careers": [
+      {
+        "id": "doctor",
+        "title": "Doctor",
+        "image": "https://cdn-icons-png.flaticon.com/512/3774/3774299.png",
+        "description": "Diagnoses and treats illnesses.",
+        "skills": [
+          "Biology",
+          "Patient Care"
+        ],
+        "education": "MBBS",
+        "salary": "₹8–30 LPA",
+        "growth": "Resident → Surgeon"
+      },
+      {
+        "id": "dentist",
+        "title": "Dentist",
+        "image": "https://cdn-icons-png.flaticon.com/512/3661/3661575.png",
+        "description": "Treats teeth and oral health.",
+        "skills": [
+          "Dentistry",
+          "Precision"
+        ],
+        "education": "BDS",
+        "salary": "₹5–20 LPA",
+        "growth": "Junior → Specialist"
+      },
+      {
+        "id": "pharmacist",
+        "title": "Pharmacist",
+        "image": "https://cdn-icons-png.flaticon.com/512/3177/3177440.png",
+        "description": "Prepares and dispenses medications.",
+        "skills": [
+          "Pharma",
+          "Attention to Detail"
+        ],
+        "education": "B.Pharm",
+        "salary": "₹3–10 LPA",
+        "growth": "Retail → Hospital"
+      },
+      {
+        "id": "nurse",
+        "title": "Nurse",
+        "image": "https://cdn-icons-png.flaticon.com/512/3354/3354489.png",
+        "description": "Provides patient care and support.",
+        "skills": [
+          "Caregiving",
+          "Stamina"
+        ],
+        "education": "B.Sc Nursing",
+        "salary": "₹2.5–8 LPA",
+        "growth": "Staff → Head Nurse"
+      },
+      {
+        "id": "radiologist",
+        "title": "Radiologist",
+        "image": "https://cdn-icons-png.flaticon.com/512/1046/1046742.png",
+        "description": "Reads and interprets medical images.",
+        "skills": [
+          "X-Ray",
+          "MRI",
+          "Analysis"
+        ],
+        "education": "MBBS + MD Radiology",
+        "salary": "₹10–40 LPA",
+        "growth": "Consultant → Senior"
+      }
+    ]
+  },
+  "commerce": {
+    "title": "Commerce",
+    "careers": [
+      {
+        "id": "chartered-accountant",
+        "title": "Chartered Accountant",
+        "image": "https://cdn-icons-png.flaticon.com/512/1455/1455642.png",
+        "description": "Manages accounting, audit, and taxation.",
+        "skills": [
+          "Finance",
+          "Maths"
+        ],
+        "education": "CA",
+        "salary": "₹6–25 LPA",
+        "growth": "Associate → CFO"
+      },
+      {
+        "id": "financial-analyst",
+        "title": "Financial Analyst",
+        "image": "https://cdn-icons-png.flaticon.com/512/2910/2910791.png",
+        "description": "Analyzes financial data for investment decisions.",
+        "skills": [
+          "Excel",
+          "Finance"
+        ],
+        "education": "B.Com + MBA",
+        "salary": "₹5–18 LPA",
+        "growth": "Analyst → Manager"
+      },
+      {
+        "id": "investment-banker",
+        "title": "Investment Banker",
+        "image": "https://cdn-icons-png.flaticon.com/512/2933/2933840.png",
+        "description": "Handles mergers, IPOs, and corporate finance.",
+        "skills": [
+          "Banking",
+          "Valuation"
+        ],
+        "education": "MBA in Finance",
+        "salary": "₹10–40 LPA",
+        "growth": "Associate → Director"
+      },
+      {
+        "id": "cost-accountant",
+        "title": "Cost Accountant",
+        "image": "https://cdn-icons-png.flaticon.com/512/2936/2936829.png",
+        "description": "Focuses on cost efficiency in production.",
+        "skills": [
+          "Costing",
+          "Budgeting"
+        ],
+        "education": "ICWA",
+        "salary": "₹5–15 LPA",
+        "growth": "Exec → Manager"
+      },
+      {
+        "id": "company-secretary",
+        "title": "Company Secretary",
+        "image": "https://cdn-icons-png.flaticon.com/512/2956/2956703.png",
+        "description": "Ensures corporate compliance and governance.",
+        "skills": [
+          "Law",
+          "Compliance"
+        ],
+        "education": "CS",
+        "salary": "₹6–20 LPA",
+        "growth": "Junior → Company Head"
+      }
+    ]
+  }
+}

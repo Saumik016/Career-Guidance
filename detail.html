@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Career Details - Career Compass</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="container">
+      <h1 class="logo">Career Compass</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="categories">
+  <div class="container" id="careerDetail">
+      <h3 id="career-title">Loading...</h3>
+      <p id="career-description" style="margin-top: 1rem;"></p>
+
+      <ul id="career-info" style="text-align: left; max-width: 800px; margin: 2rem auto; font-size: 1rem; line-height: 1.7;">
+        <!-- Content added by JS -->
+      </ul>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Career Compass. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>AOS.init({ duration: 1000 });</script>
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const careerId = params.get("career");
+
+    async function loadCareerData() {
+      const res = await fetch("assets/data/careers.json");
+      const careers = await res.json();
+      const career = careers.find(c => c.id === careerId);
+
+      if (!career) {
+        document.getElementById("career-title").textContent = "Career not found!";
+        return;
+      }
+
+      document.getElementById("career-title").textContent = career.title;
+      document.getElementById("career-description").textContent = career.description;
+
+      const ul = document.getElementById("career-info");
+      ul.innerHTML = `
+        <li><strong>Skills Required:</strong> ${career.skills.join(", ")}</li>
+        <li><strong>Education:</strong> ${career.education}</li>
+        <li><strong>Salary Range:</strong> ${career.salary}</li>
+        <li><strong>Growth:</strong> ${career.growth}</li>
+      `;
+    }
+
+    loadCareerData();
+  </script>
+  <script src="js/loadCareerDetail.js"></script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Career Compass - Find Your Path</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/main.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container">
+      <h1 class="logo">Career Compass</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-content">
+      <h2>Discover Your Future Career</h2>
+      <p>Explore career options, required skills, growth, and guidance for every field.</p>
+      <div class="search-bar">
+        <input type="text" id="searchInput" placeholder="Search for careers..." />
+        <button onclick="handleSearch()">Search</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories Section -->
+  <section class="categories">
+    <div class="container">
+      <h3>Explore by Field</h3>
+      <div class="category-grid" id="categoryGrid">
+        <a href="category.html?cat=engineering" class="category-card">Engineering</a>
+        <a href="category.html?cat=medical" class="category-card">Medical</a>
+        <a href="category.html?cat=commerce" class="category-card">Commerce</a>
+        <a href="category.html?cat=arts" class="category-card">Arts & Humanities</a>
+        <a href="category.html?cat=design" class="category-card">Design & Creativity</a>
+        <a href="category.html?cat=it" class="category-card">IT & Software</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Career Compass. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+
+</html>

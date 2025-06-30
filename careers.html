@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Explore Careers - Career Compass</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+<!-- In body -->
+<div class="category-grid" id="categoryGrid"></div>
+
+<!-- At bottom of body -->
+
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container">
+      <h1 class="logo">Career Compass</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page Heading -->
+  <section class="hero careers-hero">
+    <div class="container hero-content">
+      <h2>Career Options</h2>
+      <p>Browse through various career paths to find the one that suits you best.</p>
+    </div>
+  </section>
+
+  <!-- Career Grid Section -->
+  <section class="categories">
+    <div class="container">
+      <h3>Available Careers</h3>
+      <div class="category-grid">
+
+        <!-- Career Cards -->
+        <div class="category-card" data-aos="fade-up">Software Engineer</div>
+        <div class="category-card" data-aos="fade-up" data-aos-delay="100">Data Scientist</div>
+        <div class="category-card" data-aos="fade-up" data-aos-delay="200">UI/UX Designer</div>
+        <div class="category-card" data-aos="fade-up" data-aos-delay="300">Civil Engineer</div>
+        <div class="category-card" data-aos="fade-up" data-aos-delay="400">Chartered Accountant</div>
+        <div class="category-card" data-aos="fade-up" data-aos-delay="500">Marketing Manager</div>
+        <div class="category-card" data-aos="fade-up" data-aos-delay="600">Doctor</div>
+        <div class="category-card" data-aos="fade-up" data-aos-delay="700">Psychologist</div>
+        <div class="category-card" data-aos="fade-up" data-aos-delay="800">Game Developer</div>
+        <div class="category-card" data-aos="fade-up" data-aos-delay="900">Product Manager</div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Career Compass. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      offset: 100,
+      once: true
+    });
+  </script>
+  <script src="js/loadCategories.js"></script>
+  <!-- In body -->
+
+
+<!-- At bottom of body -->
+
+
+</body>
+</html>
+
