@@ -1,4 +1,4 @@
-Career Guidnance
+## Career Guidnance
 
 Career Compass is a modern web-based platform to help students and individuals explore different career options across various fields like Engineering, Medical, Commerce, Arts, Design, and IT. The platform provides structured, searchable, and visually rich guidance with skills, salary, education, and growth paths.
 
@@ -68,7 +68,7 @@ cd Career-Guidance
 
 **Saumik Ambade**  
 🎓 Final Year B.Tech CSE Student  
-📧 saumikambade@example.com *(replace with actual email)*
+📧 saumikambade2@gmail.com 
 
 ---
 
@@ -81,4 +81,3 @@ This project is open-source and available under the [MIT License](LICENSE).
 ## 🌟 Support
 
 If you found this project helpful, please give it a ⭐ on GitHub!
- README (1).md…]()
