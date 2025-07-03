@@ -1,4 +1,4 @@
-[README (1).md](https://github.com/user-attachments/files/21040256/README.1.md)[Uploading# 🚀 Career Compass
+Career Guidnance
 
 Career Compass is a modern web-based platform to help students and individuals explore different career options across various fields like Engineering, Medical, Commerce, Arts, Design, and IT. The platform provides structured, searchable, and visually rich guidance with skills, salary, education, and growth paths.
 
